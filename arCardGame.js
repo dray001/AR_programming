@@ -8,17 +8,7 @@ const Diagnostics = require('Diagnostics');
 // const Layers = require('Layers');
 const Time = require('Time');
 
-// How to load in modules
-// const Scene = require('Scene');
 
-// Use export keyword to make a symbol available in scripting debug console
-// export const Diagnostics = require('Diagnostics');
-
-// To use variables and functions across files, use export/import keyword
-// export const animationDuration = 10;
-
-// Use import keyword to import a symbol from another file
-// import { animationDuration } from './script.js'
 
 (async function () {  // Enables async/await in JS [part 1]
 
@@ -75,8 +65,8 @@ const Time = require('Time');
 
   }
 
-  transition(heading0, 20);
-  transition(description0, 20, 200);
+  transition(heading0, 10);
+  transition(description0, 10, 200);
   transition(getStarted, -30, 0);
 
   // const tracker = await Scene.root.findFirst('targetTracker0');
